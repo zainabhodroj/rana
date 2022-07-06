@@ -17,7 +17,7 @@ df=pd.read_csv("ped2022.csv")
 ### Menu Home Page ###
 Menu = option_menu(None, ["Home","Dataset","Dashboard", "Findings"],icons=['house',"cloud","bar-chart-line","clipboard-check"],menu_icon="cast", default_index=0, orientation="horizontal", styles={"container": {"padding": "0!important", "background-color": "#B0C4DE"},"icon": {"color": "black", "font-size": "25px"}, "nav-link": {"font-size": "15px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},"nav-link-selected": {"background-color": "#4F6272"},})
 if Menu =="Home": st.title('Healthcare Analytics - OB/PED DPT')
-Image= Image.open('child.jpg')
+Image= Image.open('Child.jpg')
 if Menu == "Home": st.image(Image,caption='')
 if Menu == "Home": st.write("A new acquisition have saved one of the leading hospitals in Kesrouan region from closing down its operations. The new CEO is trying to understand how the hospital was operating and as a start he asked if we can analyze the data, identify the gaps and provide insights to enhance the operations. As a start, we were given the data related to the OB/PED/Maternity department.")
 if Menu == "Home": st.write("In the dataset we have 3,818 observations that fall under Age, Gender, Diagnosis, Discharge, Coverage, Nationality, and LOS (Length of Stay)")
