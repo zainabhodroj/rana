@@ -7,7 +7,6 @@ import seaborn as sns
 import hydralit_components as hc
 from streamlit_option_menu import option_menu
 from PIL import Image
-import plotly_express as px
 import hydralit_components as hc
 from streamlit_option_menu import option_menu
 
